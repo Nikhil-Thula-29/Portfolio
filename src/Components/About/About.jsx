@@ -1,6 +1,6 @@
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_photo from '../../assets/profile_photo.jpg'
+import aboutme from '../../assets/aboutme.png'
 
 const About=()=>{
     return (
@@ -12,11 +12,14 @@ const About=()=>{
             <div>
                 <div className="about-sections">
                     <div className="about-left">
-                             <img src={profile_photo} alt="" style={{ width: "350px", height: "400px", objectFit:"cover" }}/>       
+                             <img src={aboutme} alt="" style={{ width: "380px", height: "400px", objectFit:"cover" , borderRadius: "15px"}}/>       
                     </div>
                     <div className="about-right">
                         <div className="about-para" style={{textAlign:'justify'}}>
-                            <p>Full Stack Developer with 2+ years of experience in Java, Spring Boot and React. Skilled in building scalable web applications, developing RESTful APIs, integrating databases, and creating dynamic, responsive frontends with modern UI frameworks. Experienced in debugging, optimization, and collaborating with teams to deliver high-quality solutions.</p>
+                            <p>I am a self-taught programmer with a passion for learning and exploring new technologies. I have a strong background in Java Full Stack Development and am always eager to expand my skillset and take on new challenges. In my free time, I enjoy sipping on a cup of tea (or coffee) and watching a game of cricket. As a dedicated and driven individual, I am constantly seeking out opportunities to grow and improve as a programmer.</p>
+                        </div>
+                        <div className='stacks'>
+                            <p>Some of the stacks I know</p>
                         </div>
                          <div class="skills-container">
                         <div class="skills-column">

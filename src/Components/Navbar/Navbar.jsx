@@ -4,12 +4,12 @@ import logo from '../../assets/logo.png'
 const Navbar=()=>{
     return (
         <div className="navbar">
-            <img src={logo} alt="" style={{ width: "220px", height: "auto" }}/>
             <ul className="nav-menu">
+                <li className="gradient-text">Nikhil Thula</li>
                 <li>Home</li>
                 <li>About Me</li>
-                <li>Services</li>
-                <li>Portfolio</li>
+                <li>Experience</li>
+                <li>Projects</li>
                 <li>Contact</li>
             </ul>
             <div className='nav-connect'>
